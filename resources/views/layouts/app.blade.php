@@ -17,8 +17,8 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link text-light" href="">Alle auto's</a></li>
                             @auth
-                                <li class="nav-item"><a class="nav-link text-light" href="">Mijn aanbod</a></li>
-                                <li class="nav-item"><a class="nav-link text-light" href="">Aanbod plaatsen</a></li>
+                                <li class="nav-item"><a class="nav-link text-light" href="{{ route("mycars") }}">Mijn aanbod</a></li>
+                                <li class="nav-item"><a class="nav-link text-light" href="{{ route("kenteken") }}">Aanbod plaatsen</a></li>
                             @endauth
                         </li>
                     </ul>
